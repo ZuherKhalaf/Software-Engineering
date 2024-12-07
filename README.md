@@ -16,4 +16,4 @@ This repository will include:
 - **Design Patterns**: Implementations of key software design patterns.
 - **Algorithms**: Examples of algorithms from various domains.
 - **Mathematical Applications**: Code bridging mathematics and computer science.
-- **Exploratory Projects**: Projects that combine my interests in physics, chemistry, and philosophy with programming.
+- **Exploratory Projects**: Projects that combine my interests .
