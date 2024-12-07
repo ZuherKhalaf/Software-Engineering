@@ -14,11 +14,7 @@ Use the Singleton pattern when
 
 
 ## Structure
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/singleton-pattern.git
-   ```
-2. Compile and run the provided Java files to explore various Singleton Pattern implementations.
+![Singleton Diagram](../../resources/png/singleton.png)
 
 ## Purpose
 - Understand how to restrict instantiation of a class to a single object.

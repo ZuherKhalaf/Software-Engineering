@@ -17,7 +17,7 @@ dynamically, or when you need to avoid conditional logic for selecting behaviour
 
 ## Structure
 
-![Strategy Diagram](../../resources/strat.png)
+![Strategy Diagram](../../resources/png/strat.png)
 
 ## Participants
 
