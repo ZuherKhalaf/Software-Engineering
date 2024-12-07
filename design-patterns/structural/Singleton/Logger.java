@@ -1,3 +1,5 @@
+package Singleton;
+
 public class Logger {
     // Die einzige Instanz der Klasse (statisch)
     private static Logger instance;
