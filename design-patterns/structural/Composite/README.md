@@ -1,4 +1,4 @@
-# Composite Pattern Repository
+# Composite Design Pattern Implementation
 
 This repository demonstrates the **Composite Pattern**, a structural design pattern used to treat individual objects and groups of objects uniformly. It allows for hierarchical tree structures where operations can be performed on both single objects and groups.
 

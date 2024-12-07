@@ -1,4 +1,4 @@
-# Decorator Pattern Repository
+# Decorator Design Pattern Implementation
 
 This repository demonstrates the **Decorator Pattern**, a design pattern used to dynamically extend object functionality at runtime without altering their class structure. It’s a flexible alternative to inheritance for adding behaviors.
 
