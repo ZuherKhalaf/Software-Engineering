@@ -2,7 +2,7 @@
 
 This repository demonstrates the **Decorator Pattern**, a design pattern used to dynamically extend object functionality at runtime without altering their class structure. It’s a flexible alternative to inheritance for adding behaviors.
 
-## About the Project
+## About this package
 - **Goal**: Showcase how objects can be dynamically extended using decorators.
 - **Implementation**: Includes a core component, decorators, and examples of combining functionality.
 
