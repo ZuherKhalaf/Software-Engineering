@@ -1,4 +1,4 @@
-package src;
+package Strategy;
 
 public class CreditCardPayment implements PaymentStrategy {
     private String cardNumber;

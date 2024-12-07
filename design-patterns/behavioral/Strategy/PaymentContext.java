@@ -1,4 +1,4 @@
-package src;
+package Strategy;
 
 public class PaymentContext {
     private PaymentStrategy paymentStrategy; // references the PaymentStrategy interface

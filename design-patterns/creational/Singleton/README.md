@@ -1,17 +1,19 @@
-# Singleton Design Pattern Implementation
 
-This repository demonstrates the **Singleton Pattern**, a creational design pattern that ensures a class has only one instance and provides a global point of access to it.
+## Singleton Design Pattern 
+## Intent
+A creational design pattern that ensures a class has only one instance and provides a global point of access to it.
 
-## About the Project
-- **Goal**: Showcase how to implement and use the Singleton Pattern in a thread-safe and efficient way.
-- **Implementation**: Includes examples of lazy initialization, eager initialization, and thread-safe singleton implementations.
+## Motivation
+This pattern is particularly useful in scenarios like managing configurations, logging, caching or database connections, where a single share resource is necessary to coordinate actions across the system.
 
-## Repository Contents
-- **Core Code**: Java implementation of the Singleton Pattern.
-- **Examples**: Use cases demonstrating global access to a single instance.
-- **Documentation**: Explanation of different approaches and their trade-offs.
+## Applicability
+Use the Singleton pattern when
+- there must be exactly one instance of a class.
+- the sole instance allows to be extended through subclassing, enabling clients to utilize the extended version without altering their existing code.
 
-## How to Use
+
+
+## Structure
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/singleton-pattern.git

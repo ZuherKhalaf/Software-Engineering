@@ -1,4 +1,5 @@
-# Intent
+### Strategy Design Pattern
+## Intent
 
 The **Strategy Pattern** in Java allows you to define a family of algorithms, encapsulate each one in a separate class,
 and make them interchangeable without modifying the client code. It promotes flexibility by enabling dynamic selection
@@ -16,7 +17,7 @@ dynamically, or when you need to avoid conditional logic for selecting behaviour
 
 ## Structure
 
-![Strategy Diagram](resources/strat.png)
+![Strategy Diagram](../../resources/strat.png)
 
 ## Participants
 
