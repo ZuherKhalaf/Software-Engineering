@@ -1,4 +1,4 @@
-### Strategy Design Pattern
+## Strategy Design Pattern
 ## Intent
 
 The **Strategy Pattern** in Java allows you to define a family of algorithms, encapsulate each one in a separate class,
@@ -29,10 +29,16 @@ dynamically, or when you need to avoid conditional logic for selecting behaviour
   - maintains a reference to a Strategy object and interacts with it exclusively through the **Strategy** interface, enabling dynamic strategy changes at runtime.
 
 ## Consequences
-- **Families of related algorithms:** Encapsulates related algorithms in separate classes, making them interchangeable.
-- **An alternative to subclassing:** offers an alternative approach to support multiple algorithms through inheritance, but it introduces rigidly by embedding the behavior directly into the **Context**, making it hardcoded and preventing dynamic changes to the algorithm a runtime.
-- **Strategies eliminate conditional statements:** provides a substitute for using conditional statements to choose specific behaviors.
-- **Choice of implementation** allows the client to select from a range of different implementations, enabling the choice of a strategy without incurring time or space trade-offs.
-- **Clients must bw aware of different Strategies:** Clients must understand the difference between strategies to select the appropriate one. Therefore, the pattern should only be used when it is relevant to the client to avoid unnecessary exposure to implementation details.
-- **Communication overhead between Strategy and Context:** The Strategy interface is shared by all **ConcreteStrategy classes, but not all strategies may use all the data passed through it, potentially causing redundant parameter initialization. This can lead to overhead due to unnecessary object creation and data processing.
+- **Families of related algorithms:** 
+  - Encapsulates related algorithms in separate classes, making them interchangeable.
+- **An alternative to subclassing:** 
+  - offers an alternative approach to support multiple algorithms through inheritance, but it introduces rigidly by embedding the behavior directly into the **Context**, making it hardcoded and preventing dynamic changes to the algorithm a runtime.
+- **Strategies eliminate conditional statements:** 
+  - provides a substitute for using conditional statements to choose specific behaviors.
+- **Choice of implementation** 
+  - allows the client to select from a range of different implementations, enabling the choice of a strategy without incurring time or space trade-offs.
+- **Clients must bw aware of different Strategies:** 
+  - Clients must understand the difference between strategies to select the appropriate one. Therefore, the pattern should only be used when it is relevant to the client to avoid unnecessary exposure to implementation details.
+- **Communication overhead between Strategy and Context:** 
+  - The Strategy interface is shared by all **ConcreteStrategy classes, but not all strategies may use all the data passed through it, potentially causing redundant parameter initialization. This can lead to overhead due to unnecessary object creation and data processing.
 - **Increased number of objects.**
